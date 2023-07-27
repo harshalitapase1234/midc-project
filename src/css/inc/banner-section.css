@@ -1,0 +1,3 @@
+.banner-img{
+    @apply w-[100%] lg:mt-20 xl:mt-14;
+}

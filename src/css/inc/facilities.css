@@ -1,0 +1,14 @@
+#facilities{
+    @apply p-5 pt-6 xl:pt-20 lg:pt-24 lg:px-10 grid  place-items-center;
+   
+    .paragraph{
+        @apply xl:w-[60%] leading-6;
+    }
+    h1{
+        @apply text-center m-0;
+    }
+    hr{
+        @apply w-16 h-1 border-none bg-orange-600;
+    }
+   
+}

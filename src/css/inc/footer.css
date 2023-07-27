@@ -1,0 +1,58 @@
+footer{
+    @apply bg-black text-white p-5 leading-6;
+
+   .footer-section{
+    @apply md:grid md:grid-cols-[repeat(2,250px)] md:justify-center lg:grid-cols-[repeat(4,220px)] xl:grid-cols-[repeat(4,230px)] xl:gap-5;
+   }
+    .heading{
+        @apply text-xl w-14;
+        border-bottom: 2px solid #f05d29;
+        .mia{
+            @apply text-orange-600;
+        }
+    }
+   
+    i {
+        @apply mr-2;
+    }
+    .links{
+    @apply pb-5 grid;
+
+    a{
+        @apply text-white no-underline;
+    }
+    a:hover{
+        @apply text-orange-600;
+    }
+    }
+    .about{
+             @apply  pb-5;
+            }
+        .social-media{
+              @apply  pb-5;
+             }
+        .about{
+                @apply pb-5;
+               }
+        .contact-us{
+                @apply   pb-5;
+
+                div{
+                    @apply pt-2;
+                }
+                }
+        .copyright{
+            @apply pb-5 text-center xl:m-0 xl:p-0;
+            }
+            hr{
+                @apply md:mx-10 lg:mx-16 xl:mx-96;
+            }
+            .social-media{
+                @apply flex gap-2;
+            }
+            .social-logo{
+                @apply w-10 h-8 font-bold text-xl text-center  mt-2 pt-2;
+                border:1px solid #f05d29;
+                background-color: #333132;
+            }
+}
